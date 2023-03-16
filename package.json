@@ -1,0 +1,28 @@
+{
+  "name": "node-project",
+  "version": "1.0.0",
+  "description": "Meu projeto NodeJs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.ts",
+    "dev": "nodemon index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EvertonLDS815/test-node.git"
+  },
+  "author": "Everton Lino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EvertonLDS815/test-node/issues"
+  },
+  "homepage": "https://github.com/EvertonLDS815/test-node#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
